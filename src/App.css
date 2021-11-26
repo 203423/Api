@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%22");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+
+}
+body{
+    background: rgb(252, 170, 184);
+    font-size: 14px;
+    line-height: 20px;
+    color:#fff;
+    
+}
+.cform{
+    
+    display: flex;
+    margin: auto;
+    padding-left: 35%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+
+}
+.form input{
+    width: 27em;
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background:none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.ctabla{
+    display: flex;
+    margin: auto;
+    padding-left: 35%;
+}
+.boton-submit {
+    width: 26em;
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .boton-send{
+    width: 26em;
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
