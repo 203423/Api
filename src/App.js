@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import CruddApp from './componentes/crudApp';
-import CrudForm from './componentes/crudForm';
-import CrudApi from './componentes/crudApi';
+import CruddApp from './componentes/CrudApp';
+import CrudForm from './componentes/Crudform';
+import CrudApi from './componentes/CrudApi';
 
 function App() {
   return (
