@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <CrudApi/>
-      <CruddApp/>
+     
       <table></table>
     </div>
   );

@@ -40,7 +40,7 @@ useEffect (()=>{
 
         handleReset();
     };
-    const handleReset=(e) =>{
+    const handleReset = (e) => { 
         setForm(initialForm);
         setDatoEditar(null);
     };
