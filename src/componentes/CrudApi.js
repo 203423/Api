@@ -42,7 +42,7 @@ const CrudApi=()=>{
 
             console.log(res);
             if(!res.err){
-                setDb([...db,res])
+                setDb.append([...db,res])
             }else{
                 setDb(res)
             }
@@ -52,7 +52,7 @@ const CrudApi=()=>{
     }
 
 
-    const updateData=(data)=>{
+    const actualizarRegistro=(data)=>{
         let endpoint=`${url}/${data.id}`;
         console.log(endpoint);
         let options ={
@@ -71,7 +71,7 @@ const CrudApi=()=>{
             }
         })    
         //setDb([...db,data]);
-        //let newDato=db.map((el)=>el.id===data.id?data:el);
+       // let newDato=db.map((el)=>el.id===data.id?data:el);
         //setDb(newDato);
     };
     const deleteRegistro=(id)=>{
@@ -110,7 +110,7 @@ const CrudApi=()=>{
 
             <CrudForm
                 agregarRegistro={agregarRegistro}
-                updateData={updateData}
+                actualizarRegistro={actualizarRegistro}
                 datoEditar={datoEditar}
                 setDatoEditar={setDatoEditar}
             />
