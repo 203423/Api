@@ -42,12 +42,12 @@ const CrudApi=()=>{
 
             console.log(res);
             if(!res.err){
-                setDb([db,res])
+                setDb([...db,res])
             }else{
                 setDb(res)
             }
         })    
-        setDb([db,data]);
+        setDb([...db,data]);
 
     }
 
@@ -70,9 +70,9 @@ const CrudApi=()=>{
                 setDb(res)
             }
         })    
-        //setDb([...db,data]);
-       // let newDato=db.map((el)=>el.id===data.id?data:el);
-        //setDb(newDato);
+        setDb([...db,data]);
+        let newDato=db.map((el)=>el.id===data.id?data:el);
+        setDb(newDato);
     };
     const deleteRegistro=(id)=>{
         let borrar=window.confirm(

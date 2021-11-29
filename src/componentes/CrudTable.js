@@ -10,6 +10,8 @@ return (
             <th>Usuario</th>
             <th></th>
             <th>contraseña</th>
+            <th></th>
+            <th>id</th>
         </tr>
         </thread>
         <tbody>
@@ -24,7 +26,7 @@ return (
             ))
         ) : (
             <tr>
-            <td colSpan="3">Sin datos</td>
+            <td colSpan="1">Sin datos</td>
             </tr>
         )}
         </tbody>
