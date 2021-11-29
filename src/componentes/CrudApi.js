@@ -70,9 +70,9 @@ const CrudApi=()=>{
                 setDb(res)
             }
         })    
-        setDb([...db,data]);
-        let newDato=db.map((el)=>el.id===data.id?data:el);
-        setDb(newDato);
+        //setDb([...db,data]);
+        //let newDato=db.map((el)=>el.id===data.id?data:el);
+        //setDb(newDato);
     };
     const deleteRegistro=(id)=>{
         let borrar=window.confirm(
@@ -95,8 +95,8 @@ const CrudApi=()=>{
                     setDb(res)
                 }
             })
-            //let nuevoDato=db.filter((el)=>el.id !==id);
-            //setDb(nuevoDato)
+            let nuevoDato=db.filter((el)=>el.id !==id);
+            setDb(nuevoDato)
         }else{
             return;
         }
