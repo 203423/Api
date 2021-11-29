@@ -1,14 +1,9 @@
 {
   "productos": [
     {
-      "id": 1,
-      "product": "producto1",
-      "type": "prod1"
-    },
-    {
-      "id": 2,
-      "product": "producto2",
-      "type": "prod2"
+      "usuario": "mott",
+      "contrasenia": "contra1111",
+      "id": 1638204476105
     }
   ]
 }
