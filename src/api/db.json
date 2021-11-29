@@ -2,23 +2,23 @@
   "productos": [
     {
       "id": 1,
-      "product": "Expresso",
-      "type": "Helado Americano"
+      "product": "producto1",
+      "type": "prod1"
     },
     {
       "id": 2,
-      "product": "Expresso",
-      "type": "Expresso"
+      "product": "producto2",
+      "type": "prod2"
     },
     {
       "id": 3,
-      "product": "Expresso",
-      "type": "Helado Latte"
+      "product": "producto3",
+      "type": "prod3"
     },
     {
       "id": 4,
-      "product": "Expresso",
-      "type": "Caramel Macciatto"
+      "product": "producto4",
+      "type": "prod4"
     }
   ]
 }

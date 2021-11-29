@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import CruddApp from './componentes/CrudApp';
-import CrudForm from './componentes/Crudform';
+import Crudform from './componentes/Crudform';
 import CrudApi from './componentes/CrudApi';
 
 function App() {
