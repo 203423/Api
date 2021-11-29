@@ -9,16 +9,6 @@
       "id": 2,
       "product": "producto2",
       "type": "prod2"
-    },
-    {
-      "id": 3,
-      "product": "producto3",
-      "type": "prod3"
-    },
-    {
-      "id": 4,
-      "product": "producto4",
-      "type": "prod4"
     }
   ]
 }
