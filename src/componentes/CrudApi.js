@@ -42,12 +42,12 @@ const CrudApi=()=>{
 
             console.log(res);
             if(!res.err){
-                setDb.append([...db,res])
+                setDb([db,res])
             }else{
                 setDb(res)
             }
         })    
-        setDb([...db,data]);
+        setDb([db,data]);
 
     }
 
